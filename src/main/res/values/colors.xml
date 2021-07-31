@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d384b</color>
+    <color name="colorPrimaryDark">#1d4658</color>
+    <color name="colorAccent">#ffffff</color>
+</resources>
+<!--20b2aa , #5f9ea0-->
+<!--male theme-->
+<!--<color name="colorPrimary">#0d384b</color>-->
+<!--<color name="colorPrimaryDark">#1d4658</color>-->
+<!--<color name="colorAccent">#ffffff</color>-->
+
+<!--female theme-->
+<!--<color name="colorPrimary">#420D09</color>-->
+<!--<color name="colorPrimaryDark">#2d0906</color>-->
+<!--<color name="colorAccent">#ffffff</color>-->

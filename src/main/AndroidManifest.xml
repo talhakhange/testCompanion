@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.testcompanion">
+
+    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:label="Schedule" />
+        <activity
+            android:name=".LabManual"
+            android:label="Lab Manual"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Syllabus"
+            android:label="Syllabus" />
+        <activity
+            android:name=".ToDo"
+            android:label="To Do" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".OperatingSystem"
+            android:label="Operating System" />
+        <activity
+            android:name=".WebBasedProgramming"
+            android:label="Visual Programming" />
+        <activity
+            android:name=".SoftwareEngineering"
+            android:label="Artificial Intelligence" />
+        <activity
+            android:name=".DataCommunications"
+            android:label="Theory of Computation" />
+        <activity
+            android:name=".Microprocessor"
+            android:label="Computer Graphics" />
+        <activity
+            android:name=".LaboratoryCourseIII"
+            android:label="Laboratory Course III" />
+        <activity android:name=".BatchInfo" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".AppInfo"
+            android:label="About" />
+        <activity android:name=".DiscreteMathematics" />
+        <activity android:name=".Week6Lab" />
+        <activity android:name=".Week7Lab" />
+        <activity android:name=".Week8Lab" />
+        <activity android:name=".Week9Lab" />
+        <activity android:name=".Week10Lab" />
+        <activity android:name=".Week11Lab" />
+        <activity android:name=".Week12Lab" />
+        <activity android:name=".Week13Lab" />
+        <activity android:name=".Week14Lab" />
+        <activity android:name=".Instructions"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Companion</string>
+    <string name="companion_for_android">Companion for Android</string>
+    <string name="about">Thanks for using Companion. This application revolves around the academics
+    of MCA third semester. It provides detailed syllabus, lecture and laboratory schedule, laboratory manual, few details of most of the students
+        and an additional to do facility. \n\nYou are highly encouraged to give your valuable feedback and opinion about this application.
+        \n\nThere is nothing like copyright issue and ownership. if you want, you can have access to source code and entire code base.
+    </string>
+    <string name="disclaimer">This application is intended to be used as a handy help. It does not claim
+        any official authenticity and it is not a substitute for any official information or data source.
+        \nDeveloper is not responsible for any of the consequences of decision made on the basis of
+        information provided in this application. \n If any individual finds it unpleasing that his or her
+    data is made public, he or she can contact the developer via feedback activity or in person.</string>
+    <string name="email">ozaifdocuments133@gmail.com</string>
+    <string name="prob10">Create a website in PHP for a company that produces mobiles and sells them online. The mobiles are in
+        various price ranges depending on it features. The mobiles are identified by a unique mobile ID and its Model number.
+        The company also displays details like year of launch of a model and price of a mobile model. Buyers can register
+        themselves on company website and buy different products online. </string>
+    <string name="prob10_2">Create four web pages for the web site for this mobile company having the following features:
+        \n\nFor the sake of consistency every page of the website should consists of four basic divisions</string>
+    <string name="prob10_p1">This division should be of fixed size and should display mobile company name and logo.
+        This division should be in different background color.</string>
+    <string name="prob10_p2">This division contains the name of maintenance agency of the website and copyright information, if any.</string>
+    <string name="prob10_p3">The pages that you are designing should differ in this Division only. The four different pages that you need to
+        design are - Home, Mobile Model List, Detailed Specification of a mobile
+        (just make one such page for one mobile model only) and Feedback.</string>
+    <string name="prob10_p4">This division should be towards the left in every
+        web page and should contain links to all the four web pages viz. Home,
+        Mobile List, Detailed specification, and Feedback.</string>
+    <string name="prob10_p5"> Home page should include Welcome message, Year of establishment of
+        company and provide details of the three most popular models.</string>
+    <string name="prob10_p6">Mobile Model List page should show the list of various Mobile Models, its processor, its memory, year of launch,
+        price and comments. You must make this list using Table tags.
+        These details should come from MySql table Mobile_Detail.</string>
+    <string name="prob10_p7">Detailed Specification page displays screen size, resolution of camera, warranty etc. This page should be linked
+        to Model number in the Mobile Model List page of which these detailed specifications are given.  These details should also come
+        from MySql table Mobile. (Note: The MySql table Mobile_Detail will contain the following field- Models, its processor, its memory,
+        year of launch, price and comments and Specification)</string>
+    <string name="prob10_p8">Feedback page should contain a form which should have fields - name of the prospective buyer, Model number
+        of the model interested in, contact email id and feedback on the model, if any. You must use JavaScript to check that all the fields
+        are filled by the person giving the feedback and model number is one of the models in the Mobile List. The feedback detail should be
+        stored in a MySql table Mobile_Feedback.</string>
+</resources>

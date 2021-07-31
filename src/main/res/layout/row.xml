@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+    android:id="@+id/task_title"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="Example"
+    android:fontFamily="sans-serif-condensed"
+    android:textColor="@color/colorPrimary"
+    android:textAlignment="textStart"
+        android:layout_gravity="start"
+    android:textSize="16sp" />
+    <!--maleCompanion android:textColor="#0d384b"-->
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:src="@drawable/ic_cancel_black_24dp"
+        android:background="@android:color/white"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:onClick="deleteTask"
+        />
+
+</LinearLayout>
